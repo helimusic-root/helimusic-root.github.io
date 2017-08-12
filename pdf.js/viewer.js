@@ -6013,20 +6013,11 @@ var pdfjsWebLibs;
        this.pdfDocumentProperties.setFileSize(args.length);
       }
      }
-     // modification starts here
      var self = this;
+     
+     // modification starts here
      self.downloadComplete = true;          
-
-     var doc = new jsPDF();
-     doc.text('Error occurred! Cannot find load file!', 10, 10);
-     var pdfdata = doc.output("arraybuffer");
-     
-     if ("pdfdata" in sessionStorage) {
-       pdfdata = atob(sessionStorage.pdfdata);
-     }     
-
-     var loadingTask = pdfjsLib.getDocument({data:pdfdata});
-     
+     var loadingTask = pdfjsLib.getDocument({data:window.top.pdfdata});     
      // modification ends here
      
      this.pdfLoadingTask = loadingTask;
