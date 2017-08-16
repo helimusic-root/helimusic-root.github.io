@@ -4349,9 +4349,11 @@ var pdfjsWebLibs;
        }
       };
       renderTask.promise.then(function pdfPageRenderCallback() {
+       window.top.PDFJS.onComplete(); // my modification
        showCanvas();
        resolveRenderPromise(undefined);
       }, function pdfPageRenderError(error) {
+       window.top.PDFJS.onError(); // my modification
        showCanvas();
        rejectRenderPromise(error);
       });
@@ -5642,7 +5644,8 @@ var pdfjsWebLibs;
     }
    };
    var PDFViewerApplication = {
-    initialBookmark: document.location.hash.substring(1),
+    //initialBookmark: document.location.hash.substring(1),
+    initialBookmark: "page=1", // my modification
     initialDestination: null,
     initialized: false,
     fellback: false,
@@ -6015,10 +6018,8 @@ var pdfjsWebLibs;
      }
      var self = this;
      
-     // modification starts here
-     self.downloadComplete = true;          
-     var loadingTask = pdfjsLib.getDocument({data:window.top.pdfdata});     
-     // modification ends here
+     self.downloadComplete = true;  // my modification        
+     var loadingTask = pdfjsLib.getDocument({data:window.top.pdfdata});  // my modification
      
      this.pdfLoadingTask = loadingTask;
      loadingTask.onPassword = function passwordNeeded(updateCallback, reason) {
