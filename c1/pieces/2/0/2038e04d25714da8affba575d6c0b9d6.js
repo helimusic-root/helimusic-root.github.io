@@ -1,0 +1,5 @@
+if (!window.hasOwnProperty("dynamicJSData")) {
+  window.dynamicJSData = {};
+}
+
+window.dynamicJSData["pieces:2038e04d25714da8affba575d6c0b9d6"] = {"bars": [{"clef": "bass", "first": 0, "key": "c", "time": "4/4", "verticals": [{"duration": "4", "notes": ["B2"]}, {"duration": "4", "notes": ["D3"]}, {"duration": "4", "notes": ["F3"]}, {"duration": "4", "notes": ["A3"]}]}, {"clef": "bass", "first": 4, "key": "c", "time": "4/4", "verticals": [{"duration": "4", "notes": ["B3"]}, {"duration": "4", "notes": ["A3"]}, {"duration": "4", "notes": ["F3"]}, {"duration": "4", "notes": ["D3"]}]}, {"clef": "bass", "first": 8, "key": "c", "time": "4/4", "verticals": [{"duration": "4", "notes": ["B2"]}, {"duration": "4r", "notes": ["B2"]}, {"duration": "4r", "notes": ["B2"]}, {"duration": "4r", "notes": ["B2"]}]}], "descriptions": {"en": "c Minor Diminished 7th in 1 Octave", "zh-cn": "c\u5c0f\u8c03\u4e00\u4e2a\u516b\u5ea6\u7684\u51cf\u4e03\u548c\u5f26"}, "id": "2038e04d25714da8affba575d6c0b9d6", "keywords": {"en": "Scale,c,Diminished 7th /1"}};

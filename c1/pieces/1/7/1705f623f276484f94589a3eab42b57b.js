@@ -1,0 +1,5 @@
+if (!window.hasOwnProperty("dynamicJSData")) {
+  window.dynamicJSData = {};
+}
+
+window.dynamicJSData["pieces:1705f623f276484f94589a3eab42b57b"] = {"bars": [{"clef": "bass", "first": 0, "key": "a\u266f", "time": "3/4", "verticals": [{"duration": "4", "notes": ["A\u266f2"]}, {"duration": "4", "notes": ["C\u266f3"]}, {"duration": "4", "notes": ["E\u266f3"]}]}, {"clef": "bass", "first": 3, "key": "a\u266f", "time": "3/4", "verticals": [{"duration": "4", "notes": ["A\u266f3"]}, {"duration": "4", "notes": ["E\u266f3"]}, {"duration": "4", "notes": ["C\u266f3"]}]}, {"clef": "bass", "first": 6, "key": "a\u266f", "time": "3/4", "verticals": [{"duration": "4", "notes": ["A\u266f2"]}, {"duration": "4r", "notes": ["A\u266f2"]}, {"duration": "4r", "notes": ["A\u266f2"]}]}], "descriptions": {"en": "a\u266f Minor Arpeggio in 1 Octave", "zh-cn": "a\u266f\u5c0f\u8c03\u4e00\u4e2a\u516b\u5ea6\u7684\u4e09\u548c\u5f26"}, "id": "1705f623f276484f94589a3eab42b57b", "keywords": {"en": "Scale,a\u266f,Arpeggio /1"}};

@@ -1,0 +1,5 @@
+if (!window.hasOwnProperty("dynamicJSData")) {
+  window.dynamicJSData = {};
+}
+
+window.dynamicJSData["pieces:3b64c5fdd3e3438c8aed8c2f7e07a22e"] = {"bars": [{"clef": "bass", "first": 0, "key": "D", "time": "4/4", "verticals": [{"duration": "4", "notes": ["A2"]}, {"duration": "4", "notes": ["C\u266f3"]}, {"duration": "4", "notes": ["E3"]}, {"duration": "4", "notes": ["G3"]}]}, {"clef": "bass", "first": 4, "key": "D", "time": "4/4", "verticals": [{"duration": "4", "notes": ["A3"]}, {"duration": "4", "notes": ["G3"]}, {"duration": "4", "notes": ["E3"]}, {"duration": "4", "notes": ["C\u266f3"]}]}, {"clef": "bass", "first": 8, "key": "D", "time": "4/4", "verticals": [{"duration": "4", "notes": ["A2"]}, {"duration": "4r", "notes": ["A2"]}, {"duration": "4r", "notes": ["A2"]}, {"duration": "4r", "notes": ["A2"]}]}], "descriptions": {"en": "D Major Dominant 7th in 1 Octave", "zh-cn": "D\u5927\u8c03\u4e00\u4e2a\u516b\u5ea6\u7684\u5927\u4e03\u548c\u5f26"}, "id": "3b64c5fdd3e3438c8aed8c2f7e07a22e", "keywords": {"en": "Scale,D,Dominant 7th /1"}};

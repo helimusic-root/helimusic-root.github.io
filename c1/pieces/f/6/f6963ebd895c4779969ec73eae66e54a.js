@@ -1,0 +1,5 @@
+if (!window.hasOwnProperty("dynamicJSData")) {
+  window.dynamicJSData = {};
+}
+
+window.dynamicJSData["pieces:f6963ebd895c4779969ec73eae66e54a"] = {"bars": [{"clef": "bass", "first": 0, "key": "B", "time": "4/4", "verticals": [{"duration": "4", "notes": ["F\u266f2"]}, {"duration": "4", "notes": ["A\u266f2"]}, {"duration": "4", "notes": ["C\u266f3"]}, {"duration": "4", "notes": ["E3"]}]}, {"clef": "bass", "first": 4, "key": "B", "time": "4/4", "verticals": [{"duration": "4", "notes": ["F\u266f3"]}, {"duration": "4", "notes": ["E3"]}, {"duration": "4", "notes": ["C\u266f3"]}, {"duration": "4", "notes": ["A\u266f2"]}]}, {"clef": "bass", "first": 8, "key": "B", "time": "4/4", "verticals": [{"duration": "4", "notes": ["F\u266f2"]}, {"duration": "4r", "notes": ["F\u266f2"]}, {"duration": "4r", "notes": ["F\u266f2"]}, {"duration": "4r", "notes": ["F\u266f2"]}]}], "descriptions": {"en": "B Major Dominant 7th in 1 Octave", "zh-cn": "B\u5927\u8c03\u4e00\u4e2a\u516b\u5ea6\u7684\u5927\u4e03\u548c\u5f26"}, "id": "f6963ebd895c4779969ec73eae66e54a", "keywords": {"en": "Scale,B,Dominant 7th /1"}};
